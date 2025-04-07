@@ -29,8 +29,9 @@ jobs:
         run: npm run build
 
       - name: 📁 Upload build output
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
+          name: dist
           path: ./dist
 
   deploy:
@@ -41,6 +42,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: ⬇️ Checkout code
+        uses: actions/checkout@v3
+
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
