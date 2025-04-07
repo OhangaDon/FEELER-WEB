@@ -10,9 +10,12 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
       - name: ⬇️ Checkout code
         uses: actions/checkout@v4
@@ -29,24 +32,9 @@ jobs:
       - name: 🛠️ Build project
         run: npm run build
 
-      - name: 📦 Package artifacts
-        run: |
-          mkdir -p artifact
-          cp -r dist/* artifact/
-
-      - name: 📁 Upload Pages artifact (v1 fallback)
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'artifact'
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
