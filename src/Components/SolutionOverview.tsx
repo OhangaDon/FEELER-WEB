@@ -53,7 +53,7 @@ const SolutionOverview = () => {
   ];
 
   return (
-    <section className="relative py-24 overflow-hidden bg-gradient-to-b from-indigo-50 via-blue-50 to-white dark:from-gray-900 dark:via-indigo-950/30 dark:to-gray-900">
+    <section id="solution" className="relative py-24 overflow-hidden bg-gradient-to-b from-indigo-50 via-blue-50 to-white dark:from-gray-900 dark:via-indigo-950/30 dark:to-gray-900">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200/30 dark:bg-blue-700/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>

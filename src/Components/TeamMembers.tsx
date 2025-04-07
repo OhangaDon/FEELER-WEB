@@ -3,8 +3,8 @@ import React from "react";
 const team = [
   {
     name: "Joram Kireki",
-    role: "Lead Backend Developer",
-    image: "/assets/Joram.jpeg",
+    role: "Backend Developer",
+    image: "/FEELER-WEB/assets/Joram.jpeg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
@@ -12,7 +12,7 @@ const team = [
   {
     name: "Vincent Ochieng'",
     role: "Backend Developer",
-    image: "/assets/Ohanga.jpeg",
+    image: "/FEELER-WEB/assets/Ohanga.jpeg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
@@ -20,23 +20,23 @@ const team = [
   {
     name: "Jany Muong",
     role: "Machine Learning Engineer",
-    image: "/assets/Janny.jpeg",
+    image: "/FEELER-WEB/assets/Janny.jpeg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
   },
   {
     name: "Gatmach Yuol",
-    role: "UI/UX Designer",
-    image: "/assets/Gatmatch.jpeg",
+    role: "Frontend Developer",
+    image: "/FEELER-WEB/assets/Gatmatch.jpeg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
   },
   {
     name: "Akech Atem",
-    role: "UI/UX Designer",
-    image: "/assets/Akech.jpg",
+    role: "Frontend Developer",
+    image: "/FEELER-WEB/assets/Akech.jpg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
@@ -44,16 +44,16 @@ const team = [
   {
     name: "Josphat Waweru",
     role: "UI/UX Designer",
-    image: "/assets/Josphat.jpg",
+    image: "/FEELER-WEB/assets/Josphat.jpeg",
     linkedin: "#",
     twitter: "#",
-    instagram: "#",
+    instagram: "",
   },
 ];
 
 const TeamMembers = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-950">
+    <section id="team" className="py-24 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-950">
       <div className="max-w-screen-xl mx-auto px-6 text-center">
         <div className="mb-16">
           <h2 className="text-5xl font-extrabold text-gray-900 dark:text-white mb-4">

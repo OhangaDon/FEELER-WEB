@@ -78,7 +78,7 @@ const KeyFeatures = () => {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-indigo-950/30 overflow-hidden">
+    <section id="features" className="relative py-24 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-indigo-950/30 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4">

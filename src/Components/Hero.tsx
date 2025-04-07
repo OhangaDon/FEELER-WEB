@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-white bg-opacity-20 rounded-lg blur"></div>
             <img
-              src="/assets/image.png"
+              src="/FEELER-WEB/assets/image.png"
               alt="AI-powered analytics"
               className="relative rounded-lg shadow-2xl w-full max-w-lg border border-white border-opacity-10"
             />

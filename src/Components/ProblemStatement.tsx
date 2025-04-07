@@ -2,7 +2,7 @@ import React from "react";
 
 const ProblemStatement: React.FC = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-950 overflow-hidden">
+    <section id="problem" className="relative py-24 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-950 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-blue-300/20 dark:bg-blue-600/10 blur-3xl"></div>
@@ -26,7 +26,7 @@ const ProblemStatement: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12">
           {[
             {
-              image: "/assets/image.png",
+              image: "/FEELER-WEB/assets/image.png",
               title: "Overwhelming Feedback",
               description: [
                 "Companies receive vast amounts of feedback from surveys, reviews, and social media.",
@@ -35,7 +35,7 @@ const ProblemStatement: React.FC = () => {
               ],
             },
             {
-              image: "/assets/image.png",
+              image: "/FEELER-WEB/assets/image.png",
               title: "Slow and Inconsistent Insights",
               description: [
                 "Traditional sentiment analysis is time-consuming and prone to human bias.",
@@ -44,7 +44,7 @@ const ProblemStatement: React.FC = () => {
               ],
             },
             {
-              image: "/assets/image.png",
+              image: "/FEELER-WEB/assets/image.png",
               title: "Difficulty in Detecting Trends",
               description: [
                 "Without the right tools, businesses struggle to identify emerging sentiment trends.",
@@ -53,7 +53,7 @@ const ProblemStatement: React.FC = () => {
               ],
             },
             {
-              image: "/assets/image.png",
+              image: "/FEELER-WEB/assets/image.png",
               title: "The Need for AI-Powered Insights",
               description: [
                 "AI-driven sentiment analysis enables real-time, data-backed decisions.",

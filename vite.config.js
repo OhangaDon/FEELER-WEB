@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/FEELER-WEB/",  // 👈 Add this for GitHub Pages
   server: {
     allowedHosts: ['.ngrok-free.app'], // Allow all Ngrok subdomains
     host: '0.0.0.0', // Allows external access
