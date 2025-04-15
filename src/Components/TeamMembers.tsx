@@ -2,6 +2,14 @@ import React from "react";
 
 const team = [
   {
+    name: "Dr. Lawrence Nderu",
+    role: "Principle Investigator",
+    image: "/FEELER-WEB/assets/Nderu.jpg",
+    linkedin: "#",
+    twitter: "#",
+    instagram: "#",
+  },
+  {
     name: "Joram Kireki",
     role: "Backend Developer",
     image: "/FEELER-WEB/assets/Joram.jpeg",
