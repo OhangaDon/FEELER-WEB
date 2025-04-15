@@ -44,7 +44,7 @@ const team = [
   {
     name: "Akech Atem",
     role: "Frontend Developer",
-    image: "/FEELER-WEB/assets/Akech.jpg",
+    image: "/FEELER-WEB/assets/Akech.jpeg",
     linkedin: "#",
     twitter: "#",
     instagram: "#",
